@@ -20,3 +20,19 @@
 11. notasCiencias[1] <-- 9
 12. notasCiencias[2] <-- 10
 // completar el código
+
+13.Para (indice <-- 0, indice<3, 1) entonces
+14	suma <-- notasMatematica[indice]
+15.Fin Para
+
+16.promedio[0]<-- suma/3
+
+17.suma <--0
+
+18.Para (indice <-- 0, indice<3, 1) entonces
+19.    suma <-- notasCiencias[indice]
+
+20.Fin Para
+21.promedio[1] <-- suma /3
+
+22.<< "Los promedios son :\n" +  promedio[0] + "\n" + promedio[1]
