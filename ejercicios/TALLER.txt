@@ -20,7 +20,7 @@ donde día 0 es Lunes. Usar 2 arreglos.
 10.Para(indice<--0, indice<5, 1) haga //0<5|v //1<5|v //2<5|v //3<5|v //4<5|v //5<5|f
 
 11.<<"Ingrese las ventas por día"
-12.>>venta_dia  //10//20//23//21//15
+12.>>venta_dia  //130//200//190//200//100
 
 13.ventas[indice]<--venta_dia   //ventas[0]<--130
 				//ventas[1]<--200
