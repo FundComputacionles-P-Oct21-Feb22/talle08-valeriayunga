@@ -1,0 +1,95 @@
+TALLER 8
+
+B. Generar una miniespecificación que permita ingresar los valores 
+de ventas de un vendedor por cada día de la semana (lunes a viernes); 
+donde día 0 es Lunes. Usar 2 arreglos.
+
+1.Inicio
+2.(ventas(5),i[0-n])  // arreglo que debe ser llenado por el usuario
+
+
+3.(dias(5), x(20)[{a-z}, {BS}])
+4.dias[0]<-- "Lunes"
+5.dias[1]<-- "Martes"
+6.dias[2]<-- "Miércoles"
+7.dias[3]<-- "Jueves"
+8.dias[4]<-- "Viernes"
+
+9.indice, i[0-n]
+
+10.Para(indice<--0, indice<5, 1) haga //0<5|v //1<5|v //2<5|v //3<5|v //4<5|v //5<5|f
+
+11.<<"Ingrese las ventas por día"
+12.>>venta_dia  //10//20//23//21//15
+
+13.ventas[indice]<--venta_dia   //ventas[0]<--130
+				//ventas[1]<--200
+			   	//ventas[2]<--190
+			  	//ventas[3]<--200
+			   	//ventas[4]<--100
+14.Fin Para
+
+15.Para(indice<--0, indice<5, 1) haga //0<5|v //1<5|v //2<5|v //3<5|v //4<5|v //5<5|f
+16.<< dias[indice] + "$" + ventas[indice]
+17.Fin Para
+
+18.Fin
+
+//pantalla
+Lunes $ 130
+Martes $ 200
+Miércoles $ 190
+Jueves $ 200
+Viernes $ 100
+
+
+-------------------------------------------------------------------------------------
+
+C. Dados un arreglo
+
+1.Inicio
+2.arreglo(5), i[0-n]
+3.arreglo[0] <-- 10
+4.arreglo[1] <-- 9
+5.arreglo[2] <-- 20
+6.arreglo[3] <-- 29
+7.arreglo[4] <-- 100
+8.indice, i[0-n]
+
+9.Para(indice<--1, indice<5, 2) haga //1<4|v //3<4|v //5<5|f
+10.<<arreglo[indice]+ "\n"  
+11.Fin Para
+
+12.Fin
+
+//pantalla
+9
+29
+
+---------------------------------------------------------------------------------------
+
+D. Dados un arreglo
+
+1.Inio
+2.arreglo(5), i[0-n]
+3.arreglo[0] <-- 10
+4.arreglo[1] <-- 9
+5.arreglo[2] <-- 20
+6.arreglo[3] <-- 29
+7.arreglo[4] <-- 100
+8.indice, i[0-n]
+
+9.Para(indice<--2, indice<=4, 2) haga //2<=4|v //4<=4|v //6<=4|f
+10.<<arreglo[indice]+ "\n"  
+11.Fin Para
+
+12.Fin
+
+//pantalla
+20
+100
+
+
+
+
+
