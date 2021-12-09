@@ -30,7 +30,7 @@ donde día 0 es Lunes. Usar 2 arreglos.
 14.Fin Para
 
 15.Para(indice<--0, indice<5, 1) haga //0<5|v //1<5|v //2<5|v //3<5|v //4<5|v //5<5|f
-16.<< dias[indice] + "$" + ventas[indice]
+16.<< dias[indice] + " "+"$"+" " + ventas[indice]
 17.Fin Para
 
 18.Fin
